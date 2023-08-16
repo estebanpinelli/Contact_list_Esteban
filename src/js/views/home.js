@@ -11,7 +11,7 @@ import { Context } from "../store/appContext";
 
 
 	const deleteContact = (id) => {
-		fetch(`https://assets.breatheco.de/apis/fake/contact/${id}`, {
+		fetch(`https://playground.4geeks.com/apis/fake/contact/${id}`, {
 			method: 'DELETE',
 			headers: {
 			  'Content-Type': 'application/json'
@@ -42,7 +42,7 @@ import { Context } from "../store/appContext";
 			<div className="card m-auto w-75 my-3 shadow">
 				<div className="row">
 					<div className="col-2">
-						<img src="https://i.seadn.io/gae/fk0J30zdCm-QszMExaws1o5nftXA0iklsk1x8PFMI1eIMH97s9JGTqpu_tJQoX3D5VRGrL0DNGh27UKs6lmqaK96ydHtk2eSOp3H0Oo?auto=format&dpr=1&w=1000" className="w-75 m-3 rounded-circle mx-auto d-block" alt="profile picture"/>
+						<img src="https://loremflickr.com/800/500/face" className="w-75 m-3 rounded-circle mx-auto d-block" alt="profile picture"/>
 					</div>
 
 					<div className="col-7 ">

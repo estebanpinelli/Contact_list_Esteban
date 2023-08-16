@@ -10,7 +10,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			
 			loadContacts: () => {
 
-				fetch("https://assets.breatheco.de/apis/fake/contact/agenda/The_Agenda")
+				fetch("https://playground.4geeks.com/apis/fake/contact/agenda/The_Agenda")
 					.then(response => response.json())
 					.then((response)=> {
 						console.log(response)

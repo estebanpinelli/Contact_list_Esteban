@@ -19,7 +19,7 @@ export const Lista = () => {
     const { id } = useParams();
     
     useEffect(() => {
-        fetch(`https://assets.breatheco.de/apis/fake/contact/${id}`)
+        fetch(`https://playground.4geeks.com/apis/fake/contact/${id}`)
             .then((response) => response.json())
             .then((data) => {
             setContact(data);
@@ -44,7 +44,7 @@ export const Lista = () => {
             }
           };
 		
-        fetch(`https://assets.breatheco.de/apis/fake/contact/${id}`, config)
+        fetch(`https://playground.4geeks.com/apis/fake/contact/${id}`, config)
 
 		.then((response) => {
 			  if (response.ok) {

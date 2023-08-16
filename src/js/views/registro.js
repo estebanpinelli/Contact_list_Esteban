@@ -25,7 +25,7 @@ export const Registro = () => {
 			}
 		}
 
-		fetch("https://assets.breatheco.de/apis/fake/contact/", config)
+		fetch("https://playground.4geeks.com/apis/fake/contact/", config)
 			.then((res) => res.json())
 			.then((response) => {
 				console.log('Success:', response);
@@ -43,7 +43,7 @@ export const Registro = () => {
 				<h3 className="display-6 text-primary"> Datos del contacto </h3>
 					<div className="mb-3">
 						<label htmlFor="name" className="form-label">Nombre</label>
-						<input type="text" className="form-control" id="full_name" placeholder="Name" onChange={handleChange} />
+						<input type="text" className="form-control" id="full_name" placeholder="Nombre" onChange={handleChange} />
 					</div>
 					<div className="mb-3">
 						<label htmlFor="Email" className="form-label">Email</label>
