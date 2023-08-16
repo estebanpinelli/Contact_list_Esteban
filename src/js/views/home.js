@@ -54,7 +54,7 @@ import { Context } from "../store/appContext";
 						</ul>
 					</div>
 					<div className="col-3 d-flex justify-content-center">
-						<button type="button" className="my-auto m-2 btn btn-outline-success "><Link to={`/update/${contacts.id}`}><i className="fas fa-user-edit"></i></Link></button>
+						<button type="button" className="my-auto m-2 btn btn-outline-success "><Link to={`/lista/${contacts.id}`}><i className="fas fa-user-edit"></i></Link></button>
 						<button type="button" className="my-auto m-2 btn btn-outline-danger" onClick={() => deleteContact(contacts.id)}><i className="fas fa-user-times"></i></button>
 					</div>
 				</div>
